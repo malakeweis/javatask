@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('font/DS-DIGT>TTF');
+}
+body{
+    font-family: Arial, sans-serif;
+   background-color: darkslategray;
+}
+#digitalDisplay {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40%;
+  }
+  h1{
+    color: brown;
+    text-align: center;
+  }
+button{
+    color: brown;
+    background-color: bisque;
+    margin-left: 50%;
+}
+input{
+    background-color: bisque;
+    color: brown;
+    margin-left:46%;
+}
+  .digit {
+    font-size: 120px;
+    font-family: 'Digital' monospace;
+    color: red;
+    background: black;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+  }
+ 
